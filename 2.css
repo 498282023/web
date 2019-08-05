@@ -1,0 +1,65 @@
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+/* input, textarea, select {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+} */
+.web_login .inputOuter {
+    width: 272px;
+    height: 42px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(//imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+    background: url(//imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+}
+.web_login .inputstyle {
+	width: 258px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	height: 18px;
+	padding: 10px 0 10px 10px;
+	line-height: 18px;
+	border: none;
+	background: 0 0;
+	color: #ddd;
+	font-family: Verdana, Tahoma, Arial;
+    font-size: 16px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+#u,#p
+{
+    top: 11px;
+}
+.inputOuter:hover{
+border-color: #51b7ec;
+}
